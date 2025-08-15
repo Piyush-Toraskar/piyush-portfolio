@@ -78,6 +78,19 @@
 
     footer{padding:2rem 0;color:var(--sub);text-align:center}
     .sr{position:absolute;left:-9999px}
+    @media (max-width: 600px) {
+    .hero .container { padding: 3.5rem 0 2rem; }
+    .title { font-size: 1.85rem; line-height: 1.15; }
+    .subtitle { font-size: 0.95rem; }
+    .cta { flex-direction: column; gap: 0.6rem; }
+    .cta .btn { width: 100%; text-align: center; padding: 0.8rem 1rem; }
+    nav.navlinks { flex-wrap: wrap; justify-content: center; gap: 0.5rem; }
+    .grid.cols-2, .grid.cols-3 { grid-template-columns: 1fr; }
+    .skills { grid-template-columns: 1fr; }
+    .project-card, .card { padding: 1rem; }
+    section { padding: 2.2rem 0; }
+  }
+</style>
   </style>
 </head>
 <body>
